@@ -1,0 +1,141 @@
+/* Estilo Global */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Use fontes modernas */
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Fundo com gradiente */
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth; /* Suaviza os links */
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  color: #00e3ff; /* Destaque */
+}
+
+a {
+  text-decoration: none;
+  color: #00e3ff; /* Cor de links */
+}
+
+a:hover {
+  color: #0fb9d9; /* Hover nos links */
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  font-weight: bold;
+}
+
+.navbar-list a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Seções */
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #00e3ff;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Sobre Mim */
+.profile-image {
+  margin-top: 1.5rem;
+  border: 5px solid #00e3ff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 227, 255, 0.3);
+}
+
+/* Projetos */
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#imgpokedex{
+  width: 500px;
+  height: auto;
+}
+#imgtodolist{
+  width: 500px;
+  height: auto;
+}
+.project-list li {
+  margin: 1rem 0;
+}
+
+.project-list a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #00e3ff;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-list a:hover {
+  background: #0fb9d9;
+}
+
+/* Contatos */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contact-icons a {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  background: #1a1a2e;
+  color: #00e3ff;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-icons a:hover {
+  background: #00e3ff;
+  color: #000;
+  transform: scale(1.1);
+}
